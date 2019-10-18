@@ -1,3 +1,4 @@
+def pry
 # Write your code here!
 def game_hash
  {
@@ -128,7 +129,11 @@ away => {
 }
 end
 
-def num_points_scored
+def num_points_scored(player_name)
+  game_hash.each do |place, team|
+end
+
+end
 
 
 
