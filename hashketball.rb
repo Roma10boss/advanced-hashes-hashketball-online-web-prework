@@ -109,8 +109,8 @@ away => {
     :rebounds => 3,
     :assists => 2,
     :steals => 1,
-    :blocks => ,
-    :slam_dunks =>,
+    :blocks => 1,
+    :slam_dunks => 0,
 }
 {
     :player_name => "",
