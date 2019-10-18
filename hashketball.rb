@@ -144,7 +144,7 @@ end
 end
 
 def shoe_size(player_name)
-  ame_hash.each do |place, team|
+  game_hash.each do |place, team|
     team.each do |attribute, data|
       i f attribute == :players
       data .each do |player|
@@ -157,7 +157,8 @@ end
 end
 end
 
-def 
+def team_colors(team_name)
+  
 
 
 
