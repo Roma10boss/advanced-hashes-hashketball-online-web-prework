@@ -172,13 +172,15 @@ def team_names
 end 
 
 def player_numbers(team_name)
-  game_hash.map do |place, team|
+  num = []
+  game_hash.each do |place, team|
     if team[:team_name] == team_name
       team.each do |attribute, data|
       binding.pry
       if attribute == :players
         data.each do |player|
-          player[:number]
+          num << player[:number]
+           
   end 
 end
 
