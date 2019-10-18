@@ -5,7 +5,8 @@ def game_hash
     :team_name =>
     :colors => [""]
     {
-    :players =>
+    :players [
+  {
     :player_name => 
     :number
     :number
@@ -17,7 +18,7 @@ def game_hash
     :blocks
     :slam_dunks
   }
-
+}
 
 
 
