@@ -196,6 +196,7 @@ end
        if attribute == :players 
          if player[:player_name] == player_name
            new_hash = player_dlete_if do |k,v|
+             k == :player_name
            end
          end 
        end 
