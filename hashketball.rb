@@ -1,5 +1,6 @@
 # Write your code here!
-def game
+def game_hash
+  
 
 
 
