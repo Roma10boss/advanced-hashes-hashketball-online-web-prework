@@ -195,7 +195,14 @@ end
      team.each do |attribute, data|
        if attribute == :players 
          if player[:player_name] == player_name
-           new_hash = player
+           new_hash = player_dlete_if do |k,v|
+           end
+         end 
+       end 
+     end 
+   end 
+ end 
+ new_hash
  end 
 
 
